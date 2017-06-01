@@ -8,18 +8,28 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+    let overlay = OverlayViewController(nibName: "OverlayViewController", bundle: nil)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        let miPicker = UIImagePickerController()
+        if UIImagePickerController.isSourceTypeAvailable(.camera) {
+            miPicker.delegate = self
+            miPicker.sourceType = UIImagePickerControllerSourceType.camera
+            miPicker.showsCameraControls = false
+            miPicker.cameraOverlayView = self.overlay.view
+            
+            self.present(miPicker, animated: true, completion: nil)
+        }
+    }
 }
 

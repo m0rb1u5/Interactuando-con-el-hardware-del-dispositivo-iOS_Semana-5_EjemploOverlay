@@ -14,6 +14,8 @@
 		94E6EC4C1EE018CD00A850E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94E6EC4A1EE018CD00A850E1 /* LaunchScreen.storyboard */; };
 		94E6EC571EE018CE00A850E1 /* Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_5_EjemploOverlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6EC561EE018CE00A850E1 /* Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_5_EjemploOverlayTests.swift */; };
 		94E6EC621EE018CE00A850E1 /* Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_5_EjemploOverlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6EC611EE018CE00A850E1 /* Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_5_EjemploOverlayUITests.swift */; };
+		94E6EC711EE0198300A850E1 /* OverlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E6EC6F1EE0198300A850E1 /* OverlayViewController.swift */; };
+		94E6EC721EE0198300A850E1 /* OverlayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94E6EC701EE0198300A850E1 /* OverlayViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		94E6EC5D1EE018CE00A850E1 /* Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-5_EjemploOverlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Interactuando-con-el-hardware-del-dispositivo-iOS_Semana-5_EjemploOverlayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94E6EC611EE018CE00A850E1 /* Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_5_EjemploOverlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interactuando_con_el_hardware_del_dispositivo_iOS_Semana_5_EjemploOverlayUITests.swift; sourceTree = "<group>"; };
 		94E6EC631EE018CE00A850E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94E6EC6F1EE0198300A850E1 /* OverlayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayViewController.swift; sourceTree = "<group>"; };
+		94E6EC701EE0198300A850E1 /* OverlayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverlayViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			children = (
 				94E6EC411EE018CD00A850E1 /* AppDelegate.swift */,
 				94E6EC431EE018CD00A850E1 /* ViewController.swift */,
+				94E6EC6F1EE0198300A850E1 /* OverlayViewController.swift */,
 				94E6EC451EE018CD00A850E1 /* Main.storyboard */,
+				94E6EC701EE0198300A850E1 /* OverlayViewController.xib */,
 				94E6EC481EE018CD00A850E1 /* Assets.xcassets */,
 				94E6EC4A1EE018CD00A850E1 /* LaunchScreen.storyboard */,
 				94E6EC4D1EE018CD00A850E1 /* Info.plist */,
@@ -238,6 +244,7 @@
 				94E6EC4C1EE018CD00A850E1 /* LaunchScreen.storyboard in Resources */,
 				94E6EC491EE018CD00A850E1 /* Assets.xcassets in Resources */,
 				94E6EC471EE018CD00A850E1 /* Main.storyboard in Resources */,
+				94E6EC721EE0198300A850E1 /* OverlayViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94E6EC711EE0198300A850E1 /* OverlayViewController.swift in Sources */,
 				94E6EC441EE018CD00A850E1 /* ViewController.swift in Sources */,
 				94E6EC421EE018CD00A850E1 /* AppDelegate.swift in Sources */,
 			);
